@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * *' # Scheduled runs every day at 3am UTC
+  
+  watch:
+    types: [started]
 
 jobs:
 
